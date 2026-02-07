@@ -1,0 +1,98 @@
+/* GLOBAL -------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Roboto:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #05070d;
+    color: #d8e2ff;
+    background-image: radial-gradient(circle at 20% 20%, #0d1220, #05070d 60%);
+    background-attachment: fixed;
+}
+
+/* HEADER -------------------------------------------------- */
+
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: rgba(10, 15, 25, 0.6);
+    backdrop-filter: blur(6px);
+    border-bottom: 2px solid #1f2a40;
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 3.2rem;
+    letter-spacing: 3px;
+    color: #6ecbff;
+    text-shadow: 0 0 8px #009dff;
+}
+
+.tagline {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #9bb3d1;
+}
+
+/* NAVIGATION -------------------------------------------------- */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 1rem;
+    background: rgba(10, 15, 25, 0.4);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid #1f2a40;
+}
+
+nav a {
+    color: #7fd0ff;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid transparent;
+    transition: 0.25s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-color: #00aaff;
+    box-shadow: 0 0 12px #00aaff;
+}
+
+/* CONTENT -------------------------------------------------- */
+
+.content {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: rgba(15, 20, 35, 0.55);
+    border: 1px solid #1f2a40;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.15);
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    color: #8fd6ff;
+    text-shadow: 0 0 6px #009dff;
+}
+
+/* FOOTER -------------------------------------------------- */
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+    background: rgba(10, 15, 25, 0.6);
+    border-top: 2px solid #1f2a40;
+    color: #7f8da3;
+    backdrop-filter: blur(6px);
+}
